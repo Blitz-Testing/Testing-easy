@@ -29,4 +29,10 @@ flows:
             '3.2':
                 task: assign_permission_sets
                 options:
-                    api_names: Final_name
+                    api_names: Final_name,SurveyCreator
+    dependencies:
+        steps:
+            3:
+                task: assign_permission_set_licenses
+                options:
+                    api_names: SurveyCreatorPsl
