@@ -29,8 +29,14 @@ flows:
             3:
                 task: assign_permission_set_licenses
                 options:
-                    api_names: CommerceAdminUserPsl,SurveyCreatorPsl
+                    api_names: CommerceAdminUserPsl,CommerceMerchandiserUserPsl,CommerceUserPsl,SurveyCreatorPsl
             4:
                 task: assign_permission_sets
                 options:
-                    api_names: SurveyCreator
+                    api_names: CommerceUser,SurveyCreator
+    deploy_unmanaged:
+        steps:
+            '3.2':
+                task: assign_permission_sets
+                options:
+                    api_names: hgfghf
