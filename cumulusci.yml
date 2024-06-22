@@ -39,4 +39,4 @@ flows:
             '3.2':
                 task: assign_permission_sets
                 options:
-                    api_names: hgfghf,kjbk
+                    api_names: hgfghf,kjbk,something
