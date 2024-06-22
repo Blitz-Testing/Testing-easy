@@ -10,6 +10,9 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestObj__c-TestObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>weew__c-weew Layout</layout>
     </layoutAssignments>
     <userLicense>External Apps Login</userLicense>
