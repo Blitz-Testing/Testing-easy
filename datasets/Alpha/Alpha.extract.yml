@@ -1,0 +1,47 @@
+extract:
+  Account:
+    fields:
+    - Name
+    - Type
+    - BillingStreet
+    - BillingCity
+    - BillingState
+    - BillingPostalCode
+    - BillingCountry
+    - BillingLatitude
+    - BillingLongitude
+    - BillingGeocodeAccuracy
+    - ShippingStreet
+    - ShippingCity
+    - ShippingState
+    - ShippingPostalCode
+    - ShippingCountry
+    - ShippingLatitude
+    - ShippingLongitude
+    - ShippingGeocodeAccuracy
+    - Phone
+    - Fax
+    - Website
+    - Sic
+    - Industry
+    - AnnualRevenue
+    - NumberOfEmployees
+    - Ownership
+    - TickerSymbol
+    - Description
+    - Rating
+    - Site
+    - Jigsaw
+    - CleanStatus
+    - AccountSource
+    - DunsNumber
+    - Tradestyle
+    - NaicsCode
+    - NaicsDesc
+    - YearStarted
+    - SicDesc
+    - ghvvhjhv__c
+    - beat__c
+    - ParentId
+    - DandbCompanyId
+    - OperatingHoursId
